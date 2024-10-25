@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SIET</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out to us!</p>
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cb521d3b-2d72-4b65-82aa-36375146733e">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" id="btn">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h2>Our Location</h2>
+            <p>Sri Shakthi Institute of Engineering and Technology</p>
+            <p>Address: 100, Kottamadi, Coimbatore, Tamil Nadu, India</p>
+            <p>Phone: +91 12345 67890</p>
+            <p>Email: info@srishakthi.ac.in</p>
+        </div>
+    </div>
+</body>
+</html>
